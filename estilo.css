@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(53, 53, 53);
+    color: rgb(0, 185, 93);
+}
+
+#parteUno,#cont
+{
+    background-color: black;
+    padding: 20px;
+}
