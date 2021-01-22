@@ -11,16 +11,13 @@
         <h1 id="titulo">titulo</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam harum, voluptate debitis architecto possimus eveniet, labore molestiae libero repellat veritatis omnis doloremque illum sint placeat pariatur. Non eligendi iste perspiciatis.</p>
     </section>
-    
-    <hr>
-    <hr>
 
-    <div class="cont"></div>
+<?php
+    echo "hola mundo";
+    $a= $_POST['a'];
+    echo "<div id=\"#cont\"><p>escribiste : -[ $a ]-";
+?>    
 
-    <form action="cosa.php" method="POST">
-        <input type="text" name="a" placeholder="escribe lo que sea">
-        <input type="submit" name="enviar" value="-envia-">
-    </form>
     <script src="main.js"></script>
 </body>
 </html>
